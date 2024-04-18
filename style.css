@@ -1,0 +1,165 @@
+body {
+    font-family: "Jasmine", "Kasper Lullaby", "Audrey Tatum";
+    margin: 0px; 
+}
+
+.one {
+    background-color: rgb(248, 213, 255);
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-flow: column wrap;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+
+.fps {
+    margin: 0px;
+    height: auto;
+    width: 200px;
+}
+
+.header {
+    font-family: "Jasmine", "Kasper Lullaby", "Audrey Tatum";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 2;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    gap: 8px;
+    margin: 0px;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-text,
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 10;
+}
+
+.header-text {
+    font-size: 50px;
+    font-family: "Jasmine", "Kasper Lullaby", "Audrey Tatum";
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.text {
+    margin: 30px 30px 0px 30px;
+    font-family: "Jasmine", "Kasper Lullaby", "Audrey Tatum";
+    flex-wrap: wrap;
+    max-width: 500px;
+    font-size: 36px;
+    align-items: flex-start;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    justify-content: space-around;
+}
+
+button {
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(217, 135, 255);
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    margin: 10px 192px;
+}
+
+.fanart {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.art {
+    width: 200px;
+    height: auto;
+    display: flex;
+
+}
+
+.two {
+    background-color: rgb(244, 200, 252);
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap; 
+    flex: 1;
+}
+
+.topic {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.games {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    font-size: 35px;
+    margin: 0px;
+
+}
+
+.three {
+    background-color: rgb(244, 185, 252);
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    flex: 1 
+}
+
+.quote {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.four {
+    background-color: rgb(244, 160, 252);
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    flex: 1  
+}
+
+.footer {
+    background-color: rgb(244, 145, 252);
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column wrap;
+    flex: 1 
+}
